@@ -87,7 +87,7 @@ export class PagesComponent implements OnInit, AfterViewInit {
 	ngOnInit(): void {}
 
 	ngAfterViewInit(): void {
-		INIT();
+		//INIT();
 		setTimeout(() => {
 			if (this.mContent) {
 				// keep content element in the service

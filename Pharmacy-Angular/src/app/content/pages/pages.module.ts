@@ -14,12 +14,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ErrorPageComponent } from './snippets/error-page/error-page.component';
 
+
 @NgModule({
 	declarations: [
 		PagesComponent,
 		ActionComponent,
 		ProfileComponent,
 		ErrorPageComponent,
+		
 	],
 	imports: [
 		CommonModule,

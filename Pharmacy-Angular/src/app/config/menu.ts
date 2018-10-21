@@ -459,11 +459,54 @@ export class MenuConfig implements ConfigModel {
 						title: 'Dashboard',
 						desc: 'Some description goes here',
 						root: true,
-						icon: 'flaticon-line-graph',
-						page: '/',
+						icon: 'icon-home',
+						//page: '/',
 						badge: {type: 'm-badge--danger', value: '2'},
-						translate: 'MENU.DASHBOARD'
+						translate: 'MENU.DASHBOARD',
+						submenu: [
+							{
+								title: 'Accordion',
+								page: '/',
+								icon:'fa fa-tags'
+							},
+							{
+								title: 'Sticky Form Actions',
+								page: '/dashboard1',
+								icon:'fa fa-tags'
+							},
+							{
+								title: 'Forms',
+								page: '/dashboard2',
+								icon:'fa fa-tags'
+							}
+						]
 					},
+					{
+						title: 'Danh mục',
+						desc: 'Some description goes here',
+						root: true,
+						icon: 'icon-home',
+						//page: '/',
+						badge: {type: 'm-badge--danger', value: '2'},
+						translate: 'MENU.DASHBOARD',
+						submenu: [
+							{
+								title: 'Accordion 2',
+								page: '/danhmuc/tinhthanh',
+								icon:'fa fa-tags'
+							},
+							{
+								title: 'Sticky Form Actions 2',
+								page: '/dashboard21',
+								icon:'fa fa-tags'
+							},
+							{
+								title: 'Forms 2',
+								page: '/dashboard22',
+								icon:'fa fa-tags'
+							}
+						]
+					}
 				]
 			}
 		};

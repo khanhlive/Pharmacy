@@ -24,6 +24,10 @@ const routes: Routes = [
 				loadChildren: './components/dashboard/dashboard.module#DashboardModule'
 			},
 			{
+				path:'danhmuc',
+				loadChildren:'./components/danhmuc/danhmuc.module#DanhmucModule'
+			},
+			{
 				path: 'header/actions',
 				component: ActionComponent
 			},

@@ -17,7 +17,7 @@ export class DashboardComponent implements OnInit {
 		private configService: LayoutConfigService,
 		private subheaderService: SubheaderService
 	) {
-		// this.subheaderService.setTitle('Dashboard');
+		this.subheaderService.setTitle('Dashboard');
 	}
 
 	ngOnInit(): void {}
