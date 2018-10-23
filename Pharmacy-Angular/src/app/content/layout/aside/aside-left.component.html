@@ -57,13 +57,14 @@
 
 <!-- BEGIN: Left Aside -->
 
-<div mMenuAsideOffcanvas id="m_aside_left" class="page-sidebar-wrapper" [ngClass]="asideLeftClasses">
+<div id="m_aside_left" class="page-sidebar-wrapper" [ngClass]="asideLeftClasses">
 	<!-- BEGIN: Aside Menu -->
 	<div mMenuAside (mouseenter)="mouseEnter($event)" (mouseleave)="mouseLeave($event)" id="m_ver_menu" class="page-sidebar navbar-collapse collapse"
 	 m-menu-vertical="1" [ngClass]="classInitService.onClassesUpdated$ | async | mGetObject:'aside_menu' | mJoin"
 	 [attr.m-menu-dropdown]="menuAsideService.isDropdown" [attr.m-menu-dropdown-timeout]="menuAsideService.dropdownTimeout"
 	 [attr.m-menu-scrollable]="menuAsideService.isScrollable">
-		<ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" [ngClass]="classInitService.onClassesUpdated$ | async | mGetObject:'aside_menu_nav' | mJoin">
+		<ul class="m-menu__nav"  class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200"
+		 [ngClass]="classInitService.onClassesUpdated$ | async | mGetObject:'aside_menu_nav' | mJoin">
 			<li class="sidebar-toggler-wrapper">
 				<div class="sidebar-toggler">
 				</div>
@@ -89,7 +90,6 @@
 
 <ng-template #mMenuListing>
 	<ng-container *ngFor="let child of menuAsideService.menuList$ | async">
-		<m-menu-section *ngIf="child.section" [item]="child"></m-menu-section>
 		<ng-container *ngIf="child.title" [ngTemplateOutlet]="mMenuItem" [ngTemplateOutletContext]="{ item: child, parentItem: item }"></ng-container>
 	</ng-container>
 </ng-template>
@@ -97,7 +97,7 @@
 <ng-template #mMenuItem let-item="item" let-parentItem="parentItem">
 	<!-- <li class=""  [ngClass]="{ 'active' : !item.submenu && isMenuItemIsActive(item) && !parentItem, 'active open' : item.submenu && isMenuItemIsActive(item)}"
 	 aria-haspopup="true"> -->
-	<li [ngClass]="{'active':isMenuItemIsActive(item), 'open': item.submenu && isMenuItemIsActive(item)}">
+	<li class="item" [ngClass]="{'active':isMenuItemIsActive(item), 'open': item.submenu && isMenuItemIsActive(item)}" aria-haspopup="true">
 		<!-- if menu item hasn't submenu -->
 		<a *ngIf="!item.submenu" [routerLink]="item.page" [matTooltip]="item.tooltip" matTooltipPosition="left">
 			<ng-container [ngTemplateOutlet]="mMenuItemText" [ngTemplateOutletContext]="{ item: item, parentItem: parentItem }"></ng-container>

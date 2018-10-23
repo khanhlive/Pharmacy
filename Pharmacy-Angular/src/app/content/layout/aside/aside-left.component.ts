@@ -41,9 +41,9 @@ export class AsideLeftComponent implements OnInit, AfterViewInit {
 	}
 
 	ngAfterViewInit(): void {
-		console.log(this.menuAsideService.menuList$);
 		setTimeout(() => {
 			this.mMenuAsideOffcanvas = new MenuAsideOffcanvasDirective(this.el);
+			console.log(this.mMenuAsideOffcanvas);
 			// manually call the directives' lifecycle hook method
 			this.mMenuAsideOffcanvas.ngAfterViewInit();
 

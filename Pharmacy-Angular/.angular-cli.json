@@ -7,7 +7,7 @@
     {
       "root": "src",
       "outDir": "dist",
-      "assets": [ 
+      "assets": [
         "assets"
       ],
       "index": "index.html",
@@ -17,12 +17,12 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "m",
-      "styles": [
-		
-	  ],
-	  
-      "scripts": ["src/assets/metronic-layout/plugins/jquery.min.js"
-	],
+      "styles": [],
+      "scripts": [
+        "src/assets/metronic-layout/plugins/jquery.min.js",
+        "src/assets/vendors/base/vendors.bundle.js",
+        "src/assets/demo/default/base/scripts.bundle.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

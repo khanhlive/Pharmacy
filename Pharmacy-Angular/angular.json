@@ -20,26 +20,27 @@
               "src/assets"
             ],
             "styles": [
-              
               "src/styles.scss"
             ],
             "scripts": [
               "src/assets/metronic-layout/plugins/jquery.min.js",
-              "src/assets/metronic-layout/plugins/jquery-migrate.min.js" ,
-              "src/assets/metronic-layout/plugins/jquery-ui/jquery-ui.min.js" ,
-              "src/assets/metronic-layout/plugins/bootstrap/js/bootstrap.min.js" ,
-              "src/assets/metronic-layout/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" ,
-              "src/assets/metronic-layout/plugins/jquery-slimscroll/jquery.slimscroll.min.js" ,
-              "src/assets/metronic-layout/plugins/jquery.blockui.min.js" ,
-              "src/assets/metronic-layout/plugins/jquery.cokie.min.js", 
-              "src/assets/metronic-layout/plugins/uniform/jquery.uniform.min.js" ,
+              "src/assets/metronic-layout/plugins/jquery-migrate.min.js",
+              "src/assets/metronic-layout/plugins/jquery-ui/jquery-ui.min.js",
+              "src/assets/metronic-layout/plugins/bootstrap/js/bootstrap.min.js",
+              "src/assets/metronic-layout/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js",
+              "src/assets/metronic-layout/plugins/jquery-slimscroll/jquery.slimscroll.min.js",
+              "src/assets/metronic-layout/plugins/jquery.blockui.min.js",
+              "src/assets/metronic-layout/plugins/jquery.cokie.min.js",
+              "src/assets/metronic-layout/plugins/uniform/jquery.uniform.min.js",
               "src/assets/metronic-layout/plugins/bootstrap-switch/js/bootstrap-switch.min.js",
-              "src/assets/metronic-layout/scripts/metronic.js" ,
-              "src/assets/metronic-layout/admin/layout/scripts/layout.js" ,
-              "src/assets/metronic-layout/admin/layout/scripts/quick-sidebar.js" ,
-              "src/assets/metronic-layout/admin/layout/scripts/demo.js" ,
-              "src/assets/metronic-layout/admin/pages/scripts/index.js" ,
-              "src/assets/metronic-layout/admin/pages/scripts/tasks.js" 
+              "src/assets/metronic-layout/scripts/metronic.js",
+              "src/assets/metronic-layout/admin/layout/scripts/layout.js",
+              "src/assets/metronic-layout/admin/layout/scripts/quick-sidebar.js",
+              "src/assets/metronic-layout/admin/layout/scripts/demo.js",
+              "src/assets/metronic-layout/admin/pages/scripts/index.js",
+              "src/assets/metronic-layout/admin/pages/scripts/tasks.js",
+              "src/assets/vendors/base/vendors.bundle.js",
+              "src/assets/demo/default/base/scripts.bundle.js"
             ]
           },
           "configurations": {

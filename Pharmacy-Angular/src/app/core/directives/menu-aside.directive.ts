@@ -39,7 +39,7 @@ export class MenuAsideDirective implements AfterViewInit, OnDestroy {
 		if (!this.layout.hasOwnProperty('header')) {
 			return;
 		}
-
+		
 		let menuDesktopMode = 'accordion';
 		if (mUtil.attr(this.el.nativeElement, 'm-menu-dropdown') === '1') {
 			menuDesktopMode = 'dropdown';
