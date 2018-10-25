@@ -18,7 +18,7 @@ export class MenuAsideOffcanvasDirective implements AfterViewInit, OnDestroy {
 	ngAfterViewInit(): void {
 		// check class for the offcanvas option
 		// tslint:disable-next-line:max-line-length
-		console.log(mUtil);
+		//console.log(mUtil);
 		const offcanvasClass = mUtil.hasClass(this.el.nativeElement, 'm-aside-left--offcanvas-default') ? 'm-aside-left--offcanvas-default' : 'm-aside-left';
 
 		// init the mOffcanvas plugin

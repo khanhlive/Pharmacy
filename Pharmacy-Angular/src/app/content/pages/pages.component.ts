@@ -16,7 +16,10 @@ import { BehaviorSubject } from 'rxjs';
 import { LayoutRefService } from '../../core/services/layout/layout-ref.service';
 import { AnimationBuilder, AnimationPlayer, style, animate } from '@angular/animations';
 import { TranslationService } from '../../core/services/translation.service';
-declare var INIT:any;
+declare var INIT: any;
+var Metronic: any;
+var Layout: any;
+var QuickSidebar: any;
 @Component({
 	selector: 'm-pages',
 	templateUrl: './pages.component.html',
@@ -84,15 +87,19 @@ export class PagesComponent implements OnInit, AfterViewInit {
 		});
 	}
 
-	ngOnInit(): void {}
+	ngOnInit(): void { }
 
 	ngAfterViewInit(): void {
-		//INIT();
+		INIT();
+
 		setTimeout(() => {
 			if (this.mContent) {
 				// keep content element in the service
 				this.layoutRefService.addElement('content', this.mContent.nativeElement);
 			}
+			// Metronic.init();
+			// QuickSidebar.init();
+			// Layout.init();
 		});
 	}
 

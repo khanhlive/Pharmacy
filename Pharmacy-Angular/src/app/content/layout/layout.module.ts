@@ -31,6 +31,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { LoadingBarModule } from '@ngx-loading-bar/core';
 import { FormsModule } from '@angular/forms';
 import { QuickSideBarComponent } from './aside/quick-sidebar/quick-sidebar.component';
+import { InboxComponent } from './header/topbar/inbox/inbox.component';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 	// suppressScrollX: true
@@ -42,7 +43,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 		FooterComponent,
 		SubheaderComponent,
 		BrandComponent,
-
+		InboxComponent,
 		// topbar components
 		TopbarComponent,
 		UserProfileComponent,
@@ -50,7 +51,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 		NotificationComponent,
 		QuickActionComponent,
 		LanguageSelectorComponent,
-QuickSideBarComponent,
+		QuickSideBarComponent,
 		// aside left menu components
 		AsideLeftComponent,
 		MenuSectionComponent,
@@ -79,7 +80,7 @@ QuickSideBarComponent,
 		NotificationComponent,
 		QuickActionComponent,
 		LanguageSelectorComponent,
-
+		InboxComponent,
 		// aside left menu components
 		AsideLeftComponent,
 		// MenuSectionComponent,
@@ -112,4 +113,4 @@ QuickSideBarComponent,
 		LoadingBarModule.forRoot(),
 	]
 })
-export class LayoutModule {}
+export class LayoutModule { }

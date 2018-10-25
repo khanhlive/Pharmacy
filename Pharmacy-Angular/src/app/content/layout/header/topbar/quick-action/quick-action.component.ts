@@ -8,7 +8,7 @@ import { Component, OnInit, HostBinding, ChangeDetectionStrategy } from '@angula
 export class QuickActionComponent implements OnInit {
 	@HostBinding('class')
 	// tslint:disable-next-line:max-line-length
-	classes = 'm-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light';
+	classes = 'dropdown dropdown-extended dropdown-tasks';
 
 	@HostBinding('attr.m-dropdown-toggle') attrDropdownToggle = 'click';
 

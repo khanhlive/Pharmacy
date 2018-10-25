@@ -25,10 +25,12 @@ export class LayoutConfigService {
 		this.router.events
 			.pipe(
 				filter(event => event instanceof NavigationEnd),
-				mergeMap(() => this.layoutConfigStorageService.loadConfig())
+				mergeMap(() => {
+					//console.log('config',this.layoutConfigStorageService.loadConfig());
+					 return this.layoutConfigStorageService.loadConfig();})
 			)
 			.subscribe(config => {
-				this.layoutConfig = config;
+				this.layoutConfig = config;//console.log('layout',config);
 				this.onLayoutConfigUpdated$.next(config);
 			});
 	}

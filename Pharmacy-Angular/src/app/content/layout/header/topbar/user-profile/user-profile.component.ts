@@ -11,7 +11,7 @@ import { DomSanitizer, SafeStyle } from '@angular/platform-browser';
 export class UserProfileComponent implements OnInit {
 	@HostBinding('class')
 	// tslint:disable-next-line:max-line-length
-	classes = 'm-nav__item m-topbar__user-profile m-topbar__user-profile--img m-dropdown m-dropdown--medium m-dropdown--arrow m-dropdown--header-bg-fill m-dropdown--align-right m-dropdown--mobile-full-width m-dropdown--skin-light';
+	classes = 'dropdown dropdown-user';
 
 	@HostBinding('attr.m-dropdown-toggle') attrDropdownToggle = 'click';
 

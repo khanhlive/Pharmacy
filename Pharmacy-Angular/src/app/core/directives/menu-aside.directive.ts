@@ -9,6 +9,7 @@ import * as objectPath from 'object-path';
 import { LayoutRefService } from '../services/layout/layout-ref.service';
 import { mergeMap } from 'rxjs/operators';
 
+
 @Directive({
 	selector: '[mMenuAside]'
 })
@@ -26,11 +27,14 @@ export class MenuAsideDirective implements AfterViewInit, OnDestroy {
 			.pipe(
 				mergeMap(config => {
 					this.config = config;
+					//console.log('2',config,this.layoutRefService.layoutRefs$);
 					return this.layoutRefService.layoutRefs$;
 				})
 			)
 			.subscribe(layout => {
 				this.layout = layout;
+				//console.log('1',layout);
+				
 				this.initMenu();
 			});
 	}

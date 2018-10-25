@@ -2795,23 +2795,23 @@ Dropdown Menu
   margin-bottom: -2px;
 }
 
-.nav.pull-right > li > .dropdown-menu,
-.nav > li > .dropdown-menu.pull-right {
+.nav.pull-right > .dropdown > .dropdown-menu,
+.nav > .dropdown > .dropdown-menu.pull-right {
   right: 0;
   left: auto;
 }
-.nav.pull-right > li > .dropdown-menu:before,
-.nav > li > .dropdown-menu.pull-right:before {
+.nav.pull-right > .dropdown > .dropdown-menu:before,
+.nav > .dropdown > .dropdown-menu.pull-right:before {
   right: 12px;
   left: auto;
 }
-.nav.pull-right > li > .dropdown-menu:after,
-.nav > li > .dropdown-menu.pull-right:after {
+.nav.pull-right > .dropdown > .dropdown-menu:after,
+.nav > .dropdown > .dropdown-menu.pull-right:after {
   right: 13px;
   left: auto;
 }
-.nav.pull-right > li > .dropdown-menu .dropdown-menu,
-.nav > li > .dropdown-menu.pull-right .dropdown-menu {
+.nav.pull-right > .dropdown > .dropdown-menu .dropdown-menu,
+.nav > .dropdown > .dropdown-menu.pull-right .dropdown-menu {
   right: 100%;
   left: auto;
   margin-right: -1px;

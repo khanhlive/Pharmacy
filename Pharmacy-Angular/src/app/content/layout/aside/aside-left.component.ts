@@ -7,7 +7,7 @@ import { LayoutConfigService } from '../../../core/services/layout-config.servic
 import { LayoutRefService } from '../../../core/services/layout/layout-ref.service';
 import { MenuAsideService } from '../../../core/services/layout/menu-aside.service';
 import { DOCUMENT } from '@angular/common';
-
+var Metronic :any;
 @Component({
 	selector: 'm-aside-left',
 	templateUrl: './aside-left.component.html',
@@ -43,7 +43,7 @@ export class AsideLeftComponent implements OnInit, AfterViewInit {
 	ngAfterViewInit(): void {
 		setTimeout(() => {
 			this.mMenuAsideOffcanvas = new MenuAsideOffcanvasDirective(this.el);
-			console.log(this.mMenuAsideOffcanvas);
+			//console.log(this.mMenuAsideOffcanvas);
 			// manually call the directives' lifecycle hook method
 			this.mMenuAsideOffcanvas.ngAfterViewInit();
 
