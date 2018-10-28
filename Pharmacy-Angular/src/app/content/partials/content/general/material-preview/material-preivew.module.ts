@@ -20,10 +20,10 @@ import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 		PerfectScrollbarModule,
 
 		// material modules
-		MatTabsModule,
-		MatExpansionModule,
-		MatCardModule,
-		MatIconModule
+		// MatTabsModule,
+		// MatExpansionModule,
+		// MatCardModule,
+		// MatIconModule
 	],
 	exports: [MaterialPreviewComponent],
 	declarations: [MaterialPreviewComponent]

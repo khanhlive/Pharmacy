@@ -3,15 +3,15 @@ import { CommonModule } from '@angular/common';
 import { DanhmucComponent } from './danhmuc.component';
 import { TinhthanhComponent } from './tinhthanh/tinhthanh.component';
 import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes=[
+import { DxButtonModule } from 'devextreme-angular'
+const routes: Routes = [
   {
-    path:'',
-    component:DanhmucComponent,
-    children:[
+    path: '',
+    component: DanhmucComponent,
+    children: [
       {
-        path:'tinhthanh',
-        component:TinhthanhComponent
+        path: 'tinhthanh',
+        component: TinhthanhComponent
       }
     ]
   }
@@ -19,10 +19,10 @@ const routes: Routes=[
 
 @NgModule({
   imports: [
-    CommonModule,
+    CommonModule, DxButtonModule,
     RouterModule.forChild(routes)
   ],
-  exports:[RouterModule],
-  declarations: [DanhmucComponent,TinhthanhComponent]
+  exports: [RouterModule],
+  declarations: [DanhmucComponent, TinhthanhComponent]
 })
 export class DanhmucModule { }

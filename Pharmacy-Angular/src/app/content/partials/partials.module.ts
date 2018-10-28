@@ -27,17 +27,17 @@ import { DataTableComponent } from './content/widgets/general/data-table/data-ta
 import { WidgetChartsModule } from './content/widgets/charts/widget-charts.module';
 import { StatComponent } from './content/widgets/general/stat/stat.component';
 
-import { MatInputModule,
-    MatSortModule,
-    MatProgressSpinnerModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSelectModule,
-    MatProgressBarModule,
-    MatButtonModule,
-    MatCheckboxModule,
-    MatIconModule,
-    MatTooltipModule} from '@angular/material';
+// import { MatInputModule,
+//     MatSortModule,
+//     MatProgressSpinnerModule,
+//     MatTableModule,
+//     MatPaginatorModule,
+//     MatSelectModule,
+//     MatProgressBarModule,
+//     MatButtonModule,
+//     MatCheckboxModule,
+//     MatIconModule,
+//     MatTooltipModule} from '@angular/material';
 
 @NgModule({
 	declarations: [
@@ -91,17 +91,17 @@ import { MatInputModule,
 		CoreModule,
 		PortletModule,
 		SpinnerButtonModule,
-		MatSortModule,
-		MatProgressSpinnerModule,
-		MatTableModule,
-		MatPaginatorModule,
-		MatSelectModule,
-		MatProgressBarModule,
-		MatButtonModule,
-		MatCheckboxModule,
-		MatIconModule,
-		MatTooltipModule,
-		WidgetChartsModule
+		// MatSortModule,
+		// MatProgressSpinnerModule,
+		// MatTableModule,
+		// MatPaginatorModule,
+		// MatSelectModule,
+		// MatProgressBarModule,
+		// MatButtonModule,
+		// MatCheckboxModule,
+		// MatIconModule,
+		// MatTooltipModule,
+		// WidgetChartsModule
 	]
 })
 export class PartialsModule {}

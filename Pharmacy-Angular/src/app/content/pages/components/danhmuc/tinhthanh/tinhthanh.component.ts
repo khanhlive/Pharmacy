@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class TinhthanhComponent implements OnInit {
 
   constructor() { }
-
+  helloWorld() {
+    alert('Hello world!');
+  }
   ngOnInit() {
   }
 
