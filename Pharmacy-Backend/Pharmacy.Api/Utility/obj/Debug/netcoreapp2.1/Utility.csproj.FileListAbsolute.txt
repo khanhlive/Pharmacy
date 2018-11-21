@@ -1,0 +1,9 @@
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\bin\Debug\netcoreapp2.1\Utility.deps.json
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\bin\Debug\netcoreapp2.1\Utility.dll
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\bin\Debug\netcoreapp2.1\Utility.pdb
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\obj\Debug\netcoreapp2.1\Utility.csproj.CoreCompileInputs.cache
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\obj\Debug\netcoreapp2.1\Utility.AssemblyInfoInputs.cache
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\obj\Debug\netcoreapp2.1\Utility.AssemblyInfo.cs
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\obj\Debug\netcoreapp2.1\Utility.dll
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\obj\Debug\netcoreapp2.1\Utility.pdb
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Utility\obj\Debug\netcoreapp2.1\Utility.csprojAssemblyReference.cache

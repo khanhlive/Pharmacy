@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { DanhmucComponent } from './danhmuc.component';
 import { TinhthanhComponent } from './tinhthanh/tinhthanh.component';
 import { RouterModule, Routes } from '@angular/router';
-import { DxButtonModule } from 'devextreme-angular'
+import { DxButtonModule, DxDataGridModule, DxTemplateModule, DxBulletModule } from 'devextreme-angular'
+import { TinhThanhService } from '../../../../core/services/danhmuc/tinhthanh.service';
 const routes: Routes = [
   {
     path: '',
@@ -19,10 +20,13 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    CommonModule, DxButtonModule,
+    CommonModule, DxButtonModule,DxDataGridModule,
+    DxTemplateModule,
+    DxBulletModule,
     RouterModule.forChild(routes)
   ],
   exports: [RouterModule],
-  declarations: [DanhmucComponent, TinhthanhComponent]
+  declarations: [DanhmucComponent, TinhthanhComponent],
+  providers:[TinhThanhService]
 })
 export class DanhmucModule { }

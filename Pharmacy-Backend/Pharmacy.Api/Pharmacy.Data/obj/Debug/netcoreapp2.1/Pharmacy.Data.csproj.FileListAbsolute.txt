@@ -1,0 +1,12 @@
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\bin\Debug\netcoreapp2.1\Utility.dll
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\obj\Debug\netcoreapp2.1\Pharmacy.Data.csproj.CoreCompileInputs.cache
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\obj\Debug\netcoreapp2.1\Pharmacy.Data.AssemblyInfoInputs.cache
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\obj\Debug\netcoreapp2.1\Pharmacy.Data.AssemblyInfo.cs
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\obj\Debug\netcoreapp2.1\Pharmacy.Data.csprojAssemblyReference.cache
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\bin\Debug\netcoreapp2.1\Pharmacy.Data.deps.json
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\bin\Debug\netcoreapp2.1\Pharmacy.Data.dll
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\bin\Debug\netcoreapp2.1\Pharmacy.Data.pdb
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\bin\Debug\netcoreapp2.1\Utility.pdb
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\obj\Debug\netcoreapp2.1\Pharmacy.Data.csproj.CopyComplete
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\obj\Debug\netcoreapp2.1\Pharmacy.Data.dll
+D:\Projects\Angular\Pharmacy\Pharmacy-Backend\Pharmacy.Api\Pharmacy.Data\obj\Debug\netcoreapp2.1\Pharmacy.Data.pdb
